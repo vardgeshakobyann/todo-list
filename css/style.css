@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #855afd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoList {
+    width: 550px;
+    height: 600px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1a42;
+    border-radius: 8px;
+    outline: none;
+}
+
+.todoListInput {
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.todoListInput h3 {
+    font-size: 40px;
+    font-family: Tahoma;
+}
+
+.todoListInput input {
+    width: 350px;
+    height: inherit;
+    padding: 10px;
+    font-size: 13px;
+    outline: none;
+    gap: 0;
+    background: transparent;
+    border: 1px solid #845afc;
+    color: #fff;
+}
+
+.todoListInput button {
+    height: inherit;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color: #845afc;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.todoListInput form {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    gap: 0;
+}
+
+.todoList .tasksParent {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto;
+}
+
+.todoList .tasksParent .item {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    background: #845afc;
+    color: #fff;
+    padding: 20px 30px;
+}
+
+i {
+    cursor: pointer;
+}
